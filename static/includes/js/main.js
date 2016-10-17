@@ -196,3 +196,4 @@ $('#runner, #runnerB, #runnerC').on('mouseover', function(){
   $(this).css('top', offset.top + 20 * goY);
   $(this).css('left', offset.left + 20 * goX);
 });
+

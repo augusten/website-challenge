@@ -1,0 +1,22 @@
+{
+  "name": "website-assignment",
+  "version": "1.0.0",
+  "description": "\"this is a website to sell perfection\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/augusten/website-challenge.git"
+  },
+  "author": "Auguste",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/augusten/website-challenge/issues"
+  },
+  "homepage": "https://github.com/augusten/website-challenge#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

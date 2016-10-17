@@ -1,3 +1,5 @@
+// Connects website to the Node.js server on port 8000
+
 const express = require( 'express' )
 const app = express()
 

@@ -1,0 +1,22 @@
+{
+  "name": "website-challenge",
+  "version": "1.0.0",
+  "description": "test nodeJs with website challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/augusten/website-challenge.git"
+  },
+  "author": "Nono",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/augusten/website-challenge/issues"
+  },
+  "homepage": "https://github.com/augusten/website-challenge#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

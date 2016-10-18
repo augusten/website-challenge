@@ -1,0 +1,377 @@
+html, body {
+  font: 400 15px/1.8 'Open Sans', sans-serif;
+  color: black;
+  height: 100%;
+}
+
+h2 {
+  margin-top: 120px;
+  margin-bottom: 50px
+}
+
+h3 {
+
+  margin: 10px 0 30px 0;
+  letter-spacing: 0px;
+  font-size: 30px;
+  color: black;
+
+}
+
+h4 {
+  margin: 10px 0 30px 0;
+  letter-spacing: 10px;
+  font-size: 20px;
+  color: #111;
+}
+
+.container {
+  padding: 80px 100px;
+}
+.container.text-center{
+    width: 1063px;
+    background-color: white;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+#contactpart{
+  font-size: 25px;
+  color: black;
+  margin-top: 70px;
+}
+#contactpart2{
+    font-size: 25px;
+    color: black;
+    margin-top: 100px;
+}
+
+
+.carousel-inner img {
+  -webkit-filter: grayscale(90%);
+  filter: grayscale(90%); /* make all photos black and white */
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+}
+
+.carousel-caption h3 {
+  color: white !important;
+}
+.carousel-caption p {
+  font-size: 15px;
+}
+
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+  }
+}
+.col-md-2{
+  background-color: white;
+  margin-top: 50px;
+  float: left;
+  height: 600px
+}
+
+#blinkme {
+  margin-top: 20px;
+  margin-right: 708px;
+  animation: blinker 1s linear infinite;
+  color: black;
+  font-size: 12px;
+
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+
+
+#firstone {
+  width: 100%;
+  height: 100%;
+}
+
+#textintro {
+
+margin-top: 30px;
+margin-left: -30px;
+margin-bottom: 30px;
+}
+
+#titleok{
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+    font-style: arial black;
+    font-size: 110px;
+    color: black;
+    position: fixed;
+    top: 240px;
+    left: -150px;
+    margin: 0;
+
+
+}
+.bg-1 {
+  background: white;
+  color: black;
+  margin-bottom: 300px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.bg-1 h3 {color: #fff;}
+
+.bg-1 p {
+  font :'Open Sans;'
+}
+
+.list-group-item:first-child {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.list-group-item:last-child {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.thumbnail {
+  padding: 0 0 15px 0;
+  border: none;
+  border-radius: 0;
+}
+.thumbnail p {
+  margin-top: 15px;
+  color: #555;
+}
+.btn {
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 12px;
+  color: black;
+  transition: .2s;
+}
+.btn:hover, .btn:focus {
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+}
+
+.nav-tabs li a {
+  color: #777;
+}
+
+#map {
+  width: 83%;
+  height: 400px;
+  margin-top: 20px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.navbar {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 0;
+  background-color: white;
+  border: 0;
+  font-size: 13px !important;
+}
+.navbar li a, .navbar .navbar-brand {
+  color: black !important;
+}
+.navbar-nav li a:hover {
+  color: #fff !important;
+}
+.navbar-nav li.active a {
+  color: black !important;
+  background-color: white !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+.open .dropdown-toggle {
+  color: black;
+  background-color: white !important;
+}
+.dropdown-menu li a {
+  color: black !important;
+}
+.dropdown-menu li a:hover {
+  background-color: grey !important;
+}
+footer {
+  background-color: #2d2d30;
+  color: #f5f5f5;
+  padding: 32px;
+}
+footer a {
+  color: #f5f5f5;
+}
+footer a:hover {
+  color: #777;
+  text-decoration: none;
+}
+.form-control {
+  border-radius: 0;
+}
+textarea {
+  resize: none;
+}
+
+.grid {
+/*  width: 800;
+  height: 100%;*/
+  width: 1000px;
+  height: 800px;
+  position: absolute;
+  margin: 150px 20px 0 0;
+  padding: 10px 50px 100px 50px;
+  background-color: transparent;
+  /*align-content: center;*/
+}
+
+.grid h1 {
+  font-family: 'Open Sans';
+  font-size: 45px;
+  padding-left: 100px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  color: black;
+}
+
+.grid #question {
+  font-family: 'Open Sans';
+  font-size: 40px;
+  color: black ;
+}
+
+.buttons {
+  margin-top: 0 auto;
+}
+
+#btn0, #btn1, #btn2 {
+  background-color: transparent;
+  width: 7px;
+  height: 7px;
+  font-size: 15px;
+  color: black;
+  border: 2px solid black;
+  border-radius: 50px;
+  margin: 10px 15px 10px 40px;
+  padding: 10px 10px;
+}
+
+#btn0:hover, #btn1:hover, #btn2:hover {
+  opacity: 0.5;
+  cursor: pointer;
+  color: #57636e;
+}
+
+#btn0:focus, #btn1:focus, #btn2:focus {
+  outline: 0;
+}
+
+#result {
+  font-family: 'Open Sans';
+  font-size: 50px;
+  color:  black;
+}
+
+#score {
+  font-family: 'Open Sans';
+  font-size: 50px;
+  color: black;
+}
+
+#choice0, #choice1, #choice2 {
+  position: relative;
+  top: 5px;
+  font-size: 20px;
+  font-family: Open Sans;
+  color: black;
+}
+
+.fa-play {
+  width: 100px;
+  height: 100px;
+  padding-right: 80px;
+  color: black;
+}
+
+.products {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+}
+
+.row-centered {
+    text-align:center;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    text-align:left;
+    margin-top: 100px;
+}
+
+.mg-flip-container {
+  perspective:1000px;
+}
+.mg-flip-container:hover .mg-flip-content,
+.mg-flip-container.hover .mg-flip-content {
+  transform:rotateY(180deg);
+}
+.mg-flip-container,.front-side,.back-side {
+  width: 100%;
+}
+.mg-flip-content {
+  transition:.6s; /* Flip duration */
+  transform-style:preserve-3d;
+  position:relative;
+}
+.front-side,
+.back-side {
+  backface-visibility:hidden;
+  position:absolute;
+  top:0;
+  left:0;
+}
+.front-side {
+  z-index:2;
+  transform:rotateY(0deg);
+}
+.back-side {
+  transform:rotateY(180deg);
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+}
+
+.container.back-side {
+  padding: 10px 10px 10px 10px;
+}
+
+p {
+  font-size: 30px;
+}
+
+.smallFont {
+  font-size: 15px;
+}
+
+#runner {
+  position: absolute;
+  left: 400px;
+}
+
+#runnerB {
+  position: absolute;
+  left: 400px;
+}
+
+#runnerC {
+  position: absolute;
+  left: 400px;
+}

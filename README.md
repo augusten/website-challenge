@@ -1,2 +1,3 @@
 # website-challenge
-The repository includes a website to sell ambiguous things
+This is a collaborative repository for a website shop. It was created during an intense 12-week Javascript course with the New York Code + Design Academy on week 3. 
+
